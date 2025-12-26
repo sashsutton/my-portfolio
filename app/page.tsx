@@ -14,10 +14,10 @@ export default function Home() {
             {/* 1. Hero Landing */}
             <section className="h-[90vh] flex flex-col lg:flex-row items-center px-6 lg:px-24">
                 <div className="w-full lg:w-1/2 space-y-6">
-                    <h1 className="text-7xl font-black tracking-tighter italic">Dual Nature.</h1>
+                    <h1 className="text-7xl font-black tracking-tighter italic">Dual Nature</h1>
                     <p className="text-zinc-400 text-xl max-w-md leading-relaxed">
-                        Math & CS Student by day. <br />
-                        Music Producer/Performer by night.
+                        Math & CS Student by day<br />
+                        Music Producer/Performer by night
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2 h-[400px]">
@@ -39,7 +39,7 @@ export default function Home() {
                     </div>
 
                     <div className="space-y-4">
-                        <h2 className="text-4xl font-bold italic">I'm Sasha.</h2>
+                        <h2 className="text-4xl font-bold italic">I'm Sasha</h2>
 
                         <p className="text-zinc-400 text-lg">
                             I study the logic of the universe through <strong>Mathematics</strong> and the architecture of systems through <strong>Computer Science</strong>. My background is in <strong>Music Production & Sound Engineering</strong>, and that creative foundation remains a core part of how I think and build.
