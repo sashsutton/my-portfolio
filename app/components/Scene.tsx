@@ -1,7 +1,7 @@
 "use client"
 
 import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, MeshDistortMaterial, Float, Stars } from "@react-three/drei";
+import { OrbitControls, MeshDistortMaterial, Float } from "@react-three/drei";
 import { useRef } from "react";
 import * as THREE from "three";
 
@@ -55,10 +55,9 @@ function RotatingShape() {
 }
 
 export const Scene = () => {
-    return(
+    return (
         <div className="h-[500px] w-full">
-            <Canvas camera={{position: [0, 0, 5]}}>
-                <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
+            <Canvas camera={{ position: [0, 0, 5] }}>
                 <ambientLight intensity={0.5} />
                 <pointLight position={[10, 10, 10]} />
                 <RotatingShape />

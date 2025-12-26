@@ -32,7 +32,7 @@ export default function Creative() {
                 </div>
 
                 {/* Youtube Card */}
-                <a href="#" className="p-8 rounded-[3rem] bg-red-950/10 border border-red-900/20 flex flex-col justify-between hover:bg-red-950/20 transition-all">
+                <a href="https://www.youtube.com/watch?v=bTA1Srxxnmc" target="_blank" className="p-8 rounded-[3rem] bg-red-950/10 border border-red-900/20 flex flex-col justify-between hover:bg-red-950/20 transition-all">
                     <Youtube className="text-red-500" size={32} />
                     <div>
                         <h3 className="font-bold">YouTube</h3>
@@ -41,7 +41,7 @@ export default function Creative() {
                 </a>
 
                 {/* Instagram Card */}
-                <a href="#" className="p-8 rounded-[3rem] bg-pink-950/10 border border-pink-900/20 flex flex-col justify-between hover:bg-pink-950/20 transition-all">
+                <a href="https://www.instagram.com/vilasonmusic/" target="_blank" className="p-8 rounded-[3rem] bg-pink-950/10 border border-pink-900/20 flex flex-col justify-between hover:bg-pink-950/20 transition-all">
                     <Instagram className="text-pink-500" size={32} />
                     <h3 className="font-bold">Instagram</h3>
                 </a>

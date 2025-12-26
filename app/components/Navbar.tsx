@@ -1,8 +1,8 @@
-import {Github, Linkedin, Mail} from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export const Navbar = () => {
-    return(
+    return (
         <nav className="relative z-10 flex items-center justify-between p-6 lg:px-12">
             <Link href="/"><div className="text-xl font-bold tracking-tighter">MATH.CS</div></Link>
             <div className="flex gap-6">
