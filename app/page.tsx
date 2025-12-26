@@ -42,35 +42,23 @@ export default function Home() {
                         <h2 className="text-4xl font-bold italic">I'm Sasha.</h2>
 
                         <p className="text-zinc-400 text-lg">
-                            I study the logic of the universe through <strong>Mathematics</strong> and the architecture
-                            of systems through <strong>Computer Science</strong>. But my journey started with a
-                            Bachelor's in <strong>Music Production & Sound Engineering</strong>.
+                            I study the logic of the universe through <strong>Mathematics</strong> and the architecture of systems through <strong>Computer Science</strong>. My background is in <strong>Music Production & Sound Engineering</strong>, and that creative foundation remains a core part of how I think and build.
                         </p>
 
                         <p className="text-zinc-400 text-lg">
-                            I didn’t leave music because I was finished with it, I left because I wanted to go deeper.
-                            From sound waves and signal chains, I became fascinated by the underlying systems:
-                            the frameworks, abstractions, and logic that power the modern world.
+                            I didn't move on from music because I lost interest; I moved into Math and CS because I wanted to go deeper into how things actually work. I went from mastering signal chains and production workflows to wanting to understand the frameworks, abstractions, and logic that power the modern world.
                         </p>
 
                         <p className="text-zinc-400 text-lg">
-                            That curiosity led me to a degree in <strong>Mathematics and Computer Science</strong>,
-                            where I shifted from using technology to <strong>architecting it</strong>.
-                            Today, I enjoy building robust backend systems, exploring AI-driven tools,
-                            and solving complex problems that scale beyond the individual.
+                            That transition led me to a degree in <strong>Mathematics and Computer Science</strong>, shifting my focus from using existing tools to <strong>architecting new ones</strong>. Today, I apply that same creative mindset to building robust backend systems, exploring AI-driven tools, and solving complex problems that scale.
                         </p>
 
                         <p className="text-zinc-400 text-lg">
-                            I thrive in fast-moving environments that demand adaptability, deep thinking,
-                            and long-term vision, whether that means switching contexts between low-level systems
-                            and AI pipelines, or applying the same endurance I train through cycling and data-driven
-                            sports analysis to ambitious engineering projects.
+                            I thrive in fast-moving environments that require adaptability and long-term vision—whether that’s jumping between low-level systems and AI pipelines or applying the endurance I’ve built through cycling and data-driven sports analysis to high-stakes engineering projects.
                         </p>
 
                         <p className="text-zinc-400 text-lg">
-                            I’m looking for more than a job, I’m looking for a <strong>mission</strong>.
-                            If you’re building something that challenges the status quo,
-                            I bring creativity, mathematical rigor, and the grit to ship code that matters.
+                            I’m not looking for a typical role; I’m looking for a <strong>mission</strong>. If you’re building something that challenges the status quo, I bring a mix of creative grit, mathematical rigor, and the technical skill to ship code that matters.
                         </p>
                     </div>
 
