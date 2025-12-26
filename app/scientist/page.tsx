@@ -1,28 +1,39 @@
 import { Navbar } from "../components/Navbar";
-import { Github, Youtube, ExternalLink, Terminal, BrainCircuit, Code2, Microscope } from "lucide-react";
+import { Github, Youtube, ExternalLink, Terminal, BrainCircuit, Code2, Microscope, FileText } from "lucide-react";
 import { FadeIn } from "../components/FadeIn";
 import Link from "next/link";
 
 
 const techStack = {
-    languages: ["Python", "TypeScript", "C++", "SQL"],
-    ai_ml: ["PyTorch", "TensorFlow", "NumPy", "Pandas"],
-    tools: ["Docker", "AWS", "Git", "Next.js"]
+    languages: ["Python", "TypeScript", "Java", "Go", "SQL"],
+    ai_ml: ["PyTorch", "TensorFlow", "HuggingFace", "Scikit-learn", "OpenCV", "Reinforcement Learning"],
+    tools: ["Docker", "Kubernetes", "AWS", "Git", "CI/CD", "Postgres", "Redis", "GraphQL", "Next.js"]
 };
 
 const projects = [
     {
-        title: "Neural Network Architect",
-        desc: "A custom deep learning framework built to understand backpropagation math.",
-        tech: ["Python", "NumPy"],
-        link: "#"
+        title: "Neural Vision 3D",
+        desc: "A real-time 3D neural network visualizer built from scratch. Features an interactive drawing pad and a live Three.js representation of hidden layer activations and backpropagation results.",
+        tech: ["React", "Three.js", "Python", "FastAPI", "NumPy"],
+        link: "https://neural-network-numbers.vercel.app/",
+        github: "https://github.com/sashsutton/neural-network-numbers"
     },
     {
-        title: "Logic & Algorithm Visualizer",
-        desc: "Interactive tool for visualizing complex graph theory and search algorithms.",
-        tech: ["TypeScript", "Three.js"],
-        link: "#"
+        title: "Vector Search Engine",
+        desc: "A high-performance semantic search engine built from scratch using Python, FastAPI, and Linear Algebra",
+        tech: ["Python", "FastAPI", "React"],
+        link: "https://vector-search-engine-frontend.vercel.app/",
+        github: "https://github.com/sashsutton/vector-search-engine?tab=readme-ov-file"
+    },
+    {
+        title: "Netflix Clone",
+        desc: "A high-fidelity frontend clone of the Netflix interface, built to demonstrate mastery in Modern React, Advanced CSS/Tailwind, and Global State Management.",
+        tech: ["Reac", "Typescript", "Tailwind CSS", "Zustand"],
+        link: "https://netflix-clone-frontend-delta-ashen.vercel.app/",
+        github: "https://github.com/sashsutton/netflix-clone-frontend?tab=readme-ov-file"
     }
+
+
 ];
 
 export default function Scientist() {
@@ -44,6 +55,15 @@ export default function Scientist() {
                         Focusing on the intersection of mathematical models and scalable architecture.
                         I build systems that think and tools that scale.
                     </p>
+
+                    <a
+                        href="/resume.pdf"
+                        download
+                        className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-colors group"
+                    >
+                        <FileText size={20} />
+                        Download CV
+                    </a>
                 </section>
             </FadeIn>
 
@@ -89,7 +109,16 @@ export default function Scientist() {
                             <div key={i} className="p-8 rounded-3xl bg-zinc-900/50 border border-zinc-800 hover:border-indigo-500/50 transition-all group">
                                 <div className="flex justify-between items-start mb-4">
                                     <h3 className="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">{p.title}</h3>
-                                    <ExternalLink size={18} className="text-zinc-600" />
+                                    <div className="flex gap-3">
+                                        {p.link && p.link.trim() !== "" && (
+                                            <Link href={p.link} target="_blank">
+                                                <ExternalLink size={20} className="text-zinc-500 hover:text-indigo-400 transition-colors" />
+                                            </Link>
+                                        )}
+                                        <Link href={p.github} target="_blank">
+                                            <Github size={20} className="text-zinc-500 hover:text-indigo-400 transition-colors" />
+                                        </Link>
+                                    </div>
                                 </div>
                                 <p className="text-zinc-400 text-sm font-sans mb-6">{p.desc}</p>
                                 <div className="flex gap-2">

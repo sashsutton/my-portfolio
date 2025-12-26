@@ -17,7 +17,7 @@ export default function Home() {
                     <h1 className="text-7xl font-black tracking-tighter italic">Dual Nature.</h1>
                     <p className="text-zinc-400 text-xl max-w-md leading-relaxed">
                         Math & CS Student by day. <br />
-                        Music Producer & Sound Engineer by night.
+                        Music Producer/Performer by night.
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2 h-[400px]">

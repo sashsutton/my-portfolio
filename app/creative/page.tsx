@@ -1,5 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import { Music, Youtube, Instagram, Mic2, Sparkles, Disc } from "lucide-react";
+import Image from "next/image";
 
 export default function Creative() {
     return (
@@ -12,7 +13,7 @@ export default function Creative() {
                     SONIC ARTISTRY.
                 </h1>
                 <p className="max-w-2xl mx-auto text-zinc-400 text-lg">
-                    Music Producer & Sound Engineer. Exploring the boundary between
+                    Music Producer and Music Performer/DJ. Exploring the boundary between
                     analog warmth and digital precision.
                 </p>
             </section>
@@ -22,12 +23,19 @@ export default function Creative() {
 
                 {/* Bio Card */}
                 <div className="md:col-span-2 md:row-span-2 p-10 rounded-[3rem] bg-zinc-900 border border-zinc-800 flex flex-col justify-end relative overflow-hidden group">
-                    <Disc className="absolute -top-10 -right-10 text-zinc-800 group-hover:text-pink-500/20 transition-colors duration-700" size={300} />
-                    <h2 className="text-3xl font-bold mb-4">Performance & Production</h2>
-                    <p className="text-zinc-400 leading-relaxed font-light">
+                    <Image
+                        src="/dj_photo.jpg"
+                        alt="DJ Performance"
+                        fill
+                        className="object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+                    <Disc className="absolute -top-10 -right-10 text-zinc-800 group-hover:text-pink-500/20 transition-colors duration-700 z-10" size={300} />
+                    <h2 className="text-3xl font-bold mb-4 relative z-10">Performance & Production</h2>
+                    <p className="text-zinc-400 leading-relaxed font-light relative z-10">
                         With a Bachelor's in Sound Engineering, I specialize in creating
-                        immersive auditory experiences. From studio mixing to live
-                        performance sets, I bridge the technical with the emotional.
+                        immersive auditory experiences. I used to work as a Live sound engineer
+                        at the club Fabric in London.
                     </p>
                 </div>
 
@@ -56,11 +64,6 @@ export default function Creative() {
                     <div className="flex flex-col items-center gap-2">
                         <Music className="text-pink-500" />
                         <span className="text-[10px] uppercase tracking-widest">Composition</span>
-                    </div>
-                    <div className="w-[1px] h-10 bg-zinc-800" />
-                    <div className="flex flex-col items-center gap-2">
-                        <Disc className="text-pink-500" />
-                        <span className="text-[10px] uppercase tracking-widest">Mastering</span>
                     </div>
                 </div>
             </section>
