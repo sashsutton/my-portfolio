@@ -31,6 +31,12 @@ const projects = [
         tech: ["Reac", "Typescript", "Tailwind CSS", "Zustand"],
         link: "https://netflix-clone-frontend-delta-ashen.vercel.app/",
         github: "https://github.com/sashsutton/netflix-clone-frontend?tab=readme-ov-file"
+    },
+    {
+        title: "Air-Harp: Computer Vision Musical Instrument",
+        desc: "Air-Harp is an interactive computer vision application that transforms your hand movements into a digital musical instrument. By using your webcam and Google’s MediaPipe technology, it detects your finger positions in real-time to \"pluck\" virtual strings suspended in mid-air.",
+        tech: ["React", "TypeScript", "MediaPipe", "OpenCV"],
+        github: "https://github.com/sashsutton/computer_vision_air_harp?tab=readme-ov-file"
     }
 
 
