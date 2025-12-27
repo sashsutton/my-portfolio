@@ -33,7 +33,7 @@ export default function Creative() {
                     <Disc className="absolute -top-10 -right-10 text-zinc-800 group-hover:text-pink-500/20 transition-colors duration-700 z-10" size={300} />
                     <h2 className="text-3xl font-bold mb-4 relative z-10">Performance & Production</h2>
                     <p className="text-zinc-400 leading-relaxed font-light relative z-10">
-                        With a Bachelor's in Sound Engineering, I specialize in creating
+                        With a Bachelor's in Sound Engineering, I specialise in creating
                         immersive auditory experiences. I used to work as a Live sound engineer
                         at the club Fabric in London.
                     </p>
