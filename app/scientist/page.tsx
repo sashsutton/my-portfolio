@@ -29,7 +29,7 @@ const projects = [
         title: "Netflix Clone",
         desc: "A high-fidelity frontend clone of the Netflix interface, built to demonstrate mastery in Modern React, Advanced CSS/Tailwind, and Global State Management.",
         tech: ["Reac", "Typescript", "Tailwind CSS", "Zustand"],
-        link: "https://netflix-clone-frontend-delta-ashen.vercel.app/",
+        link: "https://sashflix-clone-frontend-mudpnlncq-sashasuttons-projects.vercel.app/",
         github: "https://github.com/sashsutton/netflix-clone-frontend?tab=readme-ov-file"
     },
     {
