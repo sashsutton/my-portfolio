@@ -1,0 +1,98 @@
+{
+    "Navbar": {
+        "title": "MATH.CS",
+        "downloadCV": "Download CV"
+    },
+    "Home": {
+        "hero": {
+            "title": "Dual Nature",
+            "subtitle1": "Math & CS Student by day",
+            "subtitle2": "Music Producer/Performer by night"
+        },
+        "intro": {
+            "title": "I'm Sasha",
+            "p1": "I started out in the music industry, working as a live sound engineer at <strong>Fabric London</strong> and DJing while completing my BA in <strong>Music Production & Sound Engineering</strong> at Point Blank.",
+            "p2": "But I wanted to go deeper. Immediately after graduating, I enrolled in a <strong>Mathematics and Computer Science</strong> degree at Aix-Marseille University. For the first year, I studied online while still living in London and working night shifts at the club.",
+            "p3": "Eventually, I decided to go all in. I moved to Marseille to fully focus on mastering the complex fundamentals of the field. I'm now in my third year, driven by a desire to work in an industry with scalable impact and to understand the deep logic and architecture that powers our software."
+        },
+        "navigation": {
+            "creative": {
+                "title": "THE CREATIVE",
+                "description": "Artist, Sound Engineer, Performer",
+                "action": "Enter Studio"
+            },
+            "scientist": {
+                "title": "THE SCIENTIST",
+                "description": "CS Student, Content Creator, Developer",
+                "action": "Explore Research"
+            }
+        }
+    },
+    "Creative": {
+        "header": {
+            "title": "SONIC ARTISTRY.",
+            "description": "Music Producer and Performer. Bridging the gap between London's underground club culture and digital sound innovation."
+        },
+        "experience": {
+            "label": "Experience",
+            "title": "Live Sound & Performance",
+            "description": "With a Bachelor's in Sound Engineering, I've spent years behind the booth and the console. My time as a Live Sound Engineer at <highlight>Fabric London</highlight> shaped my understanding of acoustic space and high-fidelity reinforcement."
+        },
+        "skills": {
+            "mixing": {
+                "title": "Mixing & Mastering",
+                "description": "Analog-summed workflows for modern digital releases."
+            },
+            "soundDesign": {
+                "title": "Sound Design",
+                "description": "Custom synthesis and foley for immersive media."
+            },
+            "instagram": {
+                "title": "Instagram"
+            },
+            "collaboration": {
+                "title": "Collaboration",
+                "description": "Open for global production and remix projects."
+            }
+        },
+        "footer": {
+            "recording": "Recording",
+            "composition": "Composition",
+            "performance": "Performance"
+        }
+    },
+    "Scientist": {
+        "header": {
+            "log": "Research_Log_{year}",
+            "title": "AI & <span class=\"text-indigo-500\">Software</span> Engineering.",
+            "description": "Focusing on the intersection of mathematical models and scalable architecture. I build systems that think and tools that scale.",
+            "downloadCV": "Download CV"
+        },
+        "skills": {
+            "ai_math": "AI & Math",
+            "development": "Development",
+            "languages": "Languages"
+        },
+        "projects": {
+            "title": "Compiled_Projects",
+            "items": {
+                "neural_vision": {
+                    "title": "Neural Vision 3D",
+                    "desc": "A real-time 3D neural network visualizer built from scratch. Features an interactive drawing pad and a live Three.js representation of hidden layer activations and backpropagation results."
+                },
+                "vector_search": {
+                    "title": "Vector Search Engine",
+                    "desc": "A high-performance semantic search engine built from scratch using Python, FastAPI, and Linear Algebra"
+                },
+                "netflix_clone": {
+                    "title": "Netflix Clone",
+                    "desc": "A high-fidelity frontend clone of the Netflix interface, built to demonstrate mastery in Modern React, Advanced CSS/Tailwind, and Global State Management."
+                },
+                "air_harp": {
+                    "title": "Air-Harp: Computer Vision Musical Instrument",
+                    "desc": "Air-Harp is an interactive computer vision application that transforms your hand movements into a digital musical instrument. By using your webcam and Google’s MediaPipe technology, it detects your finger positions in real-time to \"pluck\" virtual strings suspended in mid-air."
+                }
+            }
+        }
+    }
+}

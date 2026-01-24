@@ -1,0 +1,98 @@
+{
+    "Navbar": {
+        "title": "MATH.CS",
+        "downloadCV": "Télécharger CV"
+    },
+    "Home": {
+        "hero": {
+            "title": "Double Nature",
+            "subtitle1": "Étudiant en Math & Info le jour",
+            "subtitle2": "Producteur de Musique/Artiste la nuit"
+        },
+        "intro": {
+            "title": "Je suis Sasha",
+            "p1": "J'ai débuté dans l'industrie musicale, travaillant comme ingénieur du son live à <strong>Fabric London</strong> et DJ tout en complétant ma licence en <strong>Production Musicale & Ingénierie Sonore</strong> à Point Blank.",
+            "p2": "Mais je voulais aller plus loin. Immédiatement après mon diplôme, je me suis inscrit en licence de <strong>Mathématiques et Informatique</strong> à l'Université d'Aix-Marseille. La première année, j'ai étudié en ligne tout en vivant à Londres et en travaillant de nuit au club.",
+            "p3": "Finalement, j'ai décidé de m'investir totalement. J'ai déménagé à Marseille pour me concentrer pleinement sur la maîtrise des fondamentaux complexes du domaine. Je suis maintenant en troisième année, animé par le désir de travailler dans une industrie à impact évolutif et de comprendre la logique profonde et l'architecture qui propulsent nos logiciels."
+        },
+        "navigation": {
+            "creative": {
+                "title": "LE CRÉATIF",
+                "description": "Artiste, Ingénieur du Son, Interprète",
+                "action": "Entrer au Studio"
+            },
+            "scientist": {
+                "title": "LE SCIENTIFIQUE",
+                "description": "Étudiant CS, Créateur de Contenu, Développeur",
+                "action": "Explorer la Recherche"
+            }
+        }
+    },
+    "Creative": {
+        "header": {
+            "title": "ART SONORE.",
+            "description": "Producteur de Musique et Interprète. Faisant le pont entre la culture club underground de Londres et l'innovation sonore numérique."
+        },
+        "experience": {
+            "label": "Expérience",
+            "title": "Son Live & Performance",
+            "description": "Avec une licence en Ingénierie Sonore, j'ai passé des années derrière les platines et la console. Mon temps en tant qu'Ingénieur du Son Live à <highlight>Fabric London</highlight> a façonné ma compréhension de l'espace acoustique et du renforcement haute-fidélité."
+        },
+        "skills": {
+            "mixing": {
+                "title": "Mixage & Mastering",
+                "description": "Flux de travail analogiques pour les sorties numériques modernes."
+            },
+            "soundDesign": {
+                "title": "Design Sonore",
+                "description": "Synthèse personnalisée et bruitage pour médias immersifs."
+            },
+            "instagram": {
+                "title": "Instagram"
+            },
+            "collaboration": {
+                "title": "Collaboration",
+                "description": "Ouvert aux projets de production et de remix mondiaux."
+            }
+        },
+        "footer": {
+            "recording": "Enregistrement",
+            "composition": "Composition",
+            "performance": "Performance"
+        }
+    },
+    "Scientist": {
+        "header": {
+            "log": "Journal_Recherche_{year}",
+            "title": "IA & Ingénierie <span class=\"text-indigo-500\">Logicielle</span>.",
+            "description": "Concentré sur l'intersection des modèles mathématiques et de l'architecture évolutive. Je construis des systèmes qui pensent et des outils qui passent à l'échelle.",
+            "downloadCV": "Télécharger CV"
+        },
+        "skills": {
+            "ai_math": "IA & Maths",
+            "development": "Développement",
+            "languages": "Langages"
+        },
+        "projects": {
+            "title": "Projets_Compilés",
+            "items": {
+                "neural_vision": {
+                    "title": "Vision Neurale 3D",
+                    "desc": "Un visualiseur de réseau de neurones 3D en temps réel construit à partir de zéro. Comprend un bloc-notes interactif et une représentation Three.js en direct des activations des couches cachées et des résultats de rétropropagation."
+                },
+                "vector_search": {
+                    "title": "Moteur de Recherche Vectoriel",
+                    "desc": "Un moteur de recherche sémantique haute performance construit à partir de zéro en utilisant Python, FastAPI et l'Algèbre Linéaire."
+                },
+                "netflix_clone": {
+                    "title": "Netflix Clone",
+                    "desc": "Un clone frontend haute fidélité de l'interface Netflix, construit pour démontrer la maîtrise de Modern React, Advanced CSS/Tailwind et la gestion d'état global."
+                },
+                "air_harp": {
+                    "title": "Air-Harp: Instrument de Musique par Vision par Ordinateur",
+                    "desc": "Air-Harp est une application interactive de vision par ordinateur qui transforme les mouvements de vos mains en un instrument de musique numérique. En utilisant votre webcam et la technologie MediaPipe de Google, il détecte la position de vos doigts en temps réel pour \"pincer\" des cordes virtuelles suspendues dans les airs."
+                }
+            }
+        }
+    }
+}
