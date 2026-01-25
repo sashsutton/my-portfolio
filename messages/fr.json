@@ -64,7 +64,7 @@
     "Scientist": {
         "header": {
             "log": "Journal_Recherche_{year}",
-            "title": "IA & Ingénierie <span class=\"text-indigo-500\">Logicielle</span>.",
+            "title": "IA & Ingénierie <highlight>Logicielle</highlight>.",
             "description": "Concentré sur l'intersection des modèles mathématiques et de l'architecture évolutive. Je construis des systèmes qui pensent et des outils qui passent à l'échelle.",
             "downloadCV": "Télécharger CV"
         },

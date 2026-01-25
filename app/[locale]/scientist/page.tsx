@@ -54,7 +54,7 @@ export default function Scientist() {
                         <span className="text-sm tracking-widest uppercase">{t('header.log', { year: currentYear })}</span>
                     </div>
                     <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6">
-                        {t.rich('header.title', { span: (chunks) => <span className="text-indigo-500">{chunks}</span> })}
+                        {t.rich('header.title', { highlight: (chunks) => <span className="text-indigo-500">{chunks}</span> })}
                     </h1>
                     <p className="max-w-2xl text-zinc-400 font-sans text-lg">
                         {t('header.description')}

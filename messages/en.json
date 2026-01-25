@@ -64,7 +64,7 @@
     "Scientist": {
         "header": {
             "log": "Research_Log_{year}",
-            "title": "AI & <span class=\"text-indigo-500\">Software</span> Engineering.",
+            "title": "AI & <highlight>Software</highlight> Engineering.",
             "description": "Focusing on the intersection of mathematical models and scalable architecture. I build systems that think and tools that scale.",
             "downloadCV": "Download CV"
         },
