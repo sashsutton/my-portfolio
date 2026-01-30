@@ -94,7 +94,7 @@
                 },
                 "koda_marketplace": {
                     "title": "Koda Marketplace",
-                    "desc": "Une Marketplace Premium Multilingue pour Automatisations et Workflows No-Code. Comprend un tableau de bord unifié à double mode avec UI glassmorphique, paiements fractionnés Stripe Connect (85/15), interactions en temps réel via Pusher, livraison numérique sécurisée avec URLs pré-signées AWS S3, et internationalisation complète en 4 langues (EN, FR, ES, DE). Construit avec Next.js 15, TypeScript, MongoDB, cache Redis, et authentification enterprise via Clerk."
+                    "desc": "Une Marketplace Premium Multilingue pour Automatisations et Workflows No-Code. Comprend un tableau de bord unifié à double mode avec UI glassmorphique, paiements fractionnés Stripe Connect (85/15), interactions en temps réel via Pusher, livraison numérique sécurisée avec URLs pré-signées AWS S3, et internationalisation complète en 4 langues (EN, FR, ES, DE). Construit avec Next.js 16, TypeScript, MongoDB, cache Redis, et authentification enterprise via Clerk."
                 }
             }
         }
