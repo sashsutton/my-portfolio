@@ -34,6 +34,12 @@ const projectsData = [
         key: "air_harp",
         tech: ["React", "TypeScript", "MediaPipe", "OpenCV"],
         github: "https://github.com/sashsutton/computer_vision_air_harp?tab=readme-ov-file"
+    },
+    {
+        key: "koda_marketplace",
+        tech: ["Next.js 15", "TypeScript", "MongoDB", "Stripe Connect", "AWS S3", "Pusher", "Redis", "Tailwind CSS 4"],
+        link: "https://www.kodas.works",
+        github: "https://github.com/Koda-lab/koda-web-app"
     }
 
 ];

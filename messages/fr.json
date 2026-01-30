@@ -91,6 +91,10 @@
                 "air_harp": {
                     "title": "Air-Harp: Instrument de Musique par Vision par Ordinateur",
                     "desc": "Air-Harp est une application interactive de vision par ordinateur qui transforme les mouvements de vos mains en un instrument de musique numérique. En utilisant votre webcam et la technologie MediaPipe de Google, il détecte la position de vos doigts en temps réel pour \"pincer\" des cordes virtuelles suspendues dans les airs."
+                },
+                "koda_marketplace": {
+                    "title": "Koda Marketplace",
+                    "desc": "Une Marketplace Premium Multilingue pour Automatisations et Workflows No-Code. Comprend un tableau de bord unifié à double mode avec UI glassmorphique, paiements fractionnés Stripe Connect (85/15), interactions en temps réel via Pusher, livraison numérique sécurisée avec URLs pré-signées AWS S3, et internationalisation complète en 4 langues (EN, FR, ES, DE). Construit avec Next.js 15, TypeScript, MongoDB, cache Redis, et authentification enterprise via Clerk."
                 }
             }
         }
