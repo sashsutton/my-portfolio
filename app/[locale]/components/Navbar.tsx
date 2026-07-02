@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     return (
         <nav className="relative z-10 flex items-center justify-between p-6 lg:px-12">
-            <Link href="/"><div className="text-xl font-bold tracking-tighter">{t('title')}</div></Link>
+            <Link href="/"><div className="text-xl font-bold tracking-tighter font-mono">{t('title')}</div></Link>
 
             <div className="flex items-center gap-6">
                 <div className="flex items-center gap-3 text-sm font-bold">

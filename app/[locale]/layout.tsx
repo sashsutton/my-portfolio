@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sasha Sutton",
-  description: "Portfolio website.",
+  title: "Sasha Sutton — AI Master's Student & Sound Engineer",
+  description:
+    "Master's student in Data, Knowledge & Hybrid AI at Université Paris-Saclay, headed for NLP & computer vision research. Former live sound engineer at Fabric London.",
 };
 
 import { NextIntlClientProvider } from 'next-intl';

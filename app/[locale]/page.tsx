@@ -22,6 +22,13 @@ export default function Home() {
                         {t('hero.subtitle1')}<br />
                         {t('hero.subtitle2')}
                     </p>
+                    <div className="flex items-center gap-3 font-mono text-sm text-zinc-500">
+                        <span className="relative flex h-2 w-2">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+                        </span>
+                        {t('hero.status')}
+                    </div>
                 </div>
                 <div className="w-full lg:w-1/2 h-[400px]">
                     <Scene />
