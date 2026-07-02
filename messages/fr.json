@@ -1,19 +1,20 @@
 {
     "Navbar": {
-        "title": "MATH.CS",
+        "title": "~/sasha",
         "downloadCV": "Télécharger CV"
     },
     "Home": {
         "hero": {
             "title": "Double Nature",
-            "subtitle1": "Étudiant en Math & Info le jour",
-            "subtitle2": "Producteur de Musique/Artiste la nuit"
+            "subtitle1": "Étudiant en Master IA le jour",
+            "subtitle2": "Producteur de musique & DJ la nuit",
+            "status": "M1 DKAI · Université Paris-Saclay · 2026–2027"
         },
         "intro": {
             "title": "Je suis Sasha",
-            "p1": "J'ai débuté dans l'industrie musicale, travaillant comme ingénieur du son live à <strong>Fabric London</strong> et DJ tout en complétant ma licence en <strong>Production Musicale & Ingénierie Sonore</strong> à Point Blank.",
-            "p2": "Mais je voulais aller plus loin. Immédiatement après mon diplôme, je me suis inscrit en licence de <strong>Mathématiques et Informatique</strong> à l'Université d'Aix-Marseille. La première année, j'ai étudié en ligne tout en vivant à Londres et en travaillant de nuit au club.",
-            "p3": "Finalement, j'ai décidé de m'investir totalement. J'ai déménagé à Marseille pour me concentrer pleinement sur la maîtrise des fondamentaux complexes du domaine. Je suis maintenant en troisième année, animé par le désir de travailler dans une industrie à impact évolutif et de comprendre la logique profonde et l'architecture qui propulsent nos logiciels."
+            "p1": "J'ai débuté dans l'industrie musicale — ingénieur du son live à <strong>Fabric London</strong>, DJ, et une licence en <strong>Production Musicale & Ingénierie Sonore</strong> à Point Blank.",
+            "p2": "Puis j'ai voulu comprendre comment les choses fonctionnent vraiment. J'ai obtenu une licence de <strong>Mathématiques et Informatique</strong> à l'Université d'Aix-Marseille (2026) — la première année en ligne depuis Londres, entre deux nuits au club. En chemin : <strong>1ère place au Hackathon AMU 2026</strong> et un article publié sur les mécanismes d'apprentissage des réseaux de neurones.",
+            "p3": "Aujourd'hui, je suis étudiant en Master <strong>Data, Knowledge & Hybrid Artificial Intelligence (DKAI)</strong> à l'Université Paris-Saclay, avec en ligne de mire le MVA et une carrière de recherche en <strong>NLP et vision par ordinateur</strong>. Je construis les choses à partir de zéro pour les comprendre — de la rétropropagation en C aux instruments qui se jouent dans les airs."
         },
         "navigation": {
             "creative": {
@@ -23,7 +24,7 @@
             },
             "scientist": {
                 "title": "LE SCIENTIFIQUE",
-                "description": "Étudiant CS, Créateur de Contenu, Développeur",
+                "description": "Étudiant en Master IA, Chercheur, Bâtisseur",
                 "action": "Explorer la Recherche"
             }
         }
@@ -64,39 +65,113 @@
     "Scientist": {
         "header": {
             "log": "Journal_Recherche_{year}",
-            "title": "IA & Ingénierie <highlight>Logicielle</highlight>.",
-            "description": "Concentré sur l'intersection des modèles mathématiques et de l'architecture évolutive. Je construis des systèmes qui pensent et des outils qui passent à l'échelle.",
-            "downloadCV": "Télécharger CV"
+            "title": "<highlight>Recherche</highlight> & Ingénierie IA.",
+            "description": "Étudiant en Master Data, Knowledge & Hybrid AI à l'Université Paris-Saclay, en route vers la recherche en NLP et vision par ordinateur. Je construis à partir de zéro pour comprendre comment les choses fonctionnent — réseaux de neurones en C pur, recherche sémantique depuis l'algèbre linéaire.",
+            "downloadCV": "Télécharger CV",
+            "badges": {
+                "degree": "M1 DKAI · Université Paris-Saclay",
+                "hackathon": "1ère place · Hackathon AMU 2026",
+                "location": "Marseille → Paris"
+            }
         },
-        "skills": {
-            "ai_math": "IA & Maths",
-            "development": "Développement",
-            "languages": "Langages"
+        "research": {
+            "title": "Notes_de_Recherche",
+            "publication": {
+                "label": "Publication · Aix-Marseille Université · 2026",
+                "link": "Lire sur HAL"
+            },
+            "focus": {
+                "label": "Focus_Actuel",
+                "desc": "Stagiaire de recherche en NLP au LIS (Laboratoire d'Informatique et Systèmes) : pipelines RAG et topic modelling sur les archives web de la BnF et de l'INA — extraction de thèmes sur des corpus WARC à grande échelle. Prochaine étape : le master MVA à l'ENS Paris-Saclay, puis la recherche en IA."
+            }
+        },
+        "experience": {
+            "title": "Expérience",
+            "creativeLink": "Voir le côté créatif →",
+            "items": {
+                "lis": {
+                    "role": "Stagiaire de Recherche en NLP",
+                    "org": "LIS — Laboratoire d'Informatique et Systèmes",
+                    "date": "Avr – Juil 2026",
+                    "desc": "Pipelines RAG et topic modelling sur les archives web de la BnF et de l'INA — outils d'extraction de thèmes pour des corpus WARC de plusieurs téraoctets."
+                },
+                "micron": {
+                    "role": "Stagiaire Analyste de Données Statistiques",
+                    "org": "Micron Applied Dentistry",
+                    "date": "Sep – Déc 2025",
+                    "desc": "Pipeline d'analyse Python pour 126 scans dentaires 3D haute résolution : validation de reproductibilité par tests t, simulation de Monte Carlo et analyse de puissance, plus un algorithme de détection de points de repère."
+                },
+                "vista": {
+                    "role": "Stagiaire Développeur Full-Stack",
+                    "org": "Vista Ball",
+                    "date": "Juin – Août 2025",
+                    "desc": "Système de gestion d'inventaire construit avec Supabase et Node.js, intégré à Shopify."
+                },
+                "fabric": {
+                    "role": "Ingénieur du Son",
+                    "org": "Fabric London",
+                    "date": "2021 – 2023",
+                    "desc": "Du vestiaire à l'équipe d'ingénierie du son de l'un des clubs les plus mythiques du monde. L'autre moitié de ce site."
+                }
+            }
         },
         "projects": {
             "title": "Projets_Compilés",
             "items": {
                 "neural_vision": {
                     "title": "Vision Neurale 3D",
-                    "desc": "Un visualiseur de réseau de neurones 3D en temps réel construit à partir de zéro. Comprend un bloc-notes interactif et une représentation Three.js en direct des activations des couches cachées et des résultats de rétropropagation."
+                    "desc": "Visualiseur 3D interactif de réseau de neurones avec reconnaissance de chiffres MNIST en temps réel. Le moteur d'inférence est écrit à la main en NumPy ; les activations des couches cachées sont rendues en direct avec Three.js."
+                },
+                "ml_library": {
+                    "title": "Bibliothèque ML en C",
+                    "desc": "Une bibliothèque de réseaux de neurones en C pur : opérations matricielles, couches denses, activations ReLU/Sigmoïde, perte MSE et propagation avant. Sans dépendances — juste du C et CMake."
                 },
                 "vector_search": {
                     "title": "Moteur de Recherche Vectoriel",
-                    "desc": "Un moteur de recherche sémantique haute performance construit à partir de zéro en utilisant Python, FastAPI et l'Algèbre Linéaire."
-                },
-                "netflix_clone": {
-                    "title": "Netflix Clone",
-                    "desc": "Un clone frontend haute fidélité de l'interface Netflix, construit pour démontrer la maîtrise de Modern React, Advanced CSS/Tailwind et la gestion d'état global."
+                    "desc": "Moteur de recherche sémantique construit depuis l'algèbre linéaire — embeddings de phrases BERT et similarité cosinus, backend FastAPI, frontend React."
                 },
                 "air_harp": {
-                    "title": "Air-Harp: Instrument de Musique par Vision par Ordinateur",
-                    "desc": "Air-Harp est une application interactive de vision par ordinateur qui transforme les mouvements de vos mains en un instrument de musique numérique. En utilisant votre webcam et la technologie MediaPipe de Google, il détecte la position de vos doigts en temps réel pour \"pincer\" des cordes virtuelles suspendues dans les airs."
+                    "title": "Air Harp",
+                    "desc": "Un instrument par vision par ordinateur : le suivi de mains MediaPipe permet de pincer des cordes de harpe virtuelles suspendues dans les airs. Là où les deux moitiés de ce portfolio se rencontrent."
                 },
                 "koda_marketplace": {
                     "title": "Koda Marketplace",
-                    "desc": "Une Marketplace Premium Multilingue pour Automatisations et Workflows No-Code. Comprend un tableau de bord unifié à double mode avec UI glassmorphique, paiements fractionnés Stripe Connect (85/15), interactions en temps réel via Pusher, livraison numérique sécurisée avec URLs pré-signées AWS S3, et internationalisation complète en 4 langues (EN, FR, ES, DE). Construit avec Next.js 16, TypeScript, MongoDB, cache Redis, et authentification enterprise via Clerk."
+                    "desc": "Marketplace multilingue pour automatisations no-code : paiements fractionnés Stripe Connect, interactions en temps réel via Pusher, livraison sécurisée par URLs pré-signées S3, i18n en quatre langues."
                 }
             }
+        },
+        "skills": {
+            "title": "Stack_Technique",
+            "ai_math": "IA & Recherche",
+            "development": "Ingénierie",
+            "languages": "Langages"
+        },
+        "education": {
+            "title": "Formation",
+            "items": {
+                "m1": {
+                    "degree": "M1 — Data, Knowledge & Hybrid Artificial Intelligence (DKAI)",
+                    "school": "Université Paris-Saclay",
+                    "date": "2026 – 2027",
+                    "note": "Enseigné en anglais · en parallèle d'une L3 de Mathématiques à AMU (double licence, prévue 2027)"
+                },
+                "bsc": {
+                    "degree": "Licence Mathématiques et Informatique",
+                    "school": "Université d'Aix-Marseille",
+                    "date": "2023 – 2026",
+                    "note": "1ère place, Hackathon AMU 2026 · Club d'Échecs · Club de Mathématiques"
+                },
+                "ba": {
+                    "degree": "BA Production Musicale & Ingénierie Sonore",
+                    "school": "Point Blank Music School · Middlesex University",
+                    "date": "2021 – 2023",
+                    "note": "En parallèle du poste d'ingénieur du son à Fabric London"
+                }
+            }
+        },
+        "contact": {
+            "line": "Ouvert aux collaborations de recherche et aux problèmes intéressants.",
+            "tagline": "© {year} Sasha Sutton — fait maison, comme tout le reste."
         }
     }
 }

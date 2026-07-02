@@ -1,19 +1,20 @@
 {
   "Navbar": {
-    "title": "MATH.CS",
+    "title": "~/sasha",
     "downloadCV": "Download CV"
   },
   "Home": {
     "hero": {
       "title": "Dual Nature",
-      "subtitle1": "Math & CS Student by day",
-      "subtitle2": "Music Producer/Performer by night"
+      "subtitle1": "AI Master's student by day",
+      "subtitle2": "Music producer & DJ by night",
+      "status": "M1 DKAI · Université Paris-Saclay · 2026–2027"
     },
     "intro": {
       "title": "I'm Sasha",
-      "p1": "I started out in the music industry, working as a live sound engineer at <strong>Fabric London</strong> and DJing while completing my BA in <strong>Music Production & Sound Engineering</strong> at Point Blank.",
-      "p2": "But I wanted to go deeper. Immediately after graduating, I enrolled in a <strong>Mathematics and Computer Science</strong> degree at Aix-Marseille University. For the first year, I studied online while still living in London and working night shifts at the club.",
-      "p3": "Eventually, I decided to go all in. I moved to Marseille to fully focus on mastering the complex fundamentals of the field. I'm now in my third year, driven by a desire to work in an industry with scalable impact and to understand the deep logic and architecture that powers our software."
+      "p1": "I started out in the music industry — live sound engineer at <strong>Fabric London</strong>, DJing, and a BA in <strong>Music Production & Sound Engineering</strong> at Point Blank.",
+      "p2": "Then I wanted to understand how things actually work. I earned a BSc in <strong>Mathematics & Computer Science</strong> at Aix-Marseille University (2026) — the first year studied online from London, between night shifts at the club. Along the way: <strong>1st place at the AMU Hackathon 2026</strong> and a published article on the learning mechanics of neural networks.",
+      "p3": "Today I'm a Master's student in <strong>Data, Knowledge & Hybrid Artificial Intelligence (DKAI)</strong> at Université Paris-Saclay, aiming for the MVA and a research career in <strong>NLP and computer vision</strong>. I build things from scratch to understand them — from backpropagation in C to instruments you play in mid-air."
     },
     "navigation": {
       "creative": {
@@ -23,7 +24,7 @@
       },
       "scientist": {
         "title": "THE SCIENTIST",
-        "description": "CS Student, Content Creator, Developer",
+        "description": "AI Master's Student, Researcher, Builder",
         "action": "Explore Research"
       }
     }
@@ -64,39 +65,113 @@
   "Scientist": {
     "header": {
       "log": "Research_Log_{year}",
-      "title": "AI & <highlight>Software</highlight> Engineering.",
-      "description": "Focusing on the intersection of mathematical models and scalable architecture. I build systems that think and tools that scale.",
-      "downloadCV": "Download CV"
+      "title": "AI <highlight>Research</highlight> & Engineering.",
+      "description": "Master's student in Data, Knowledge & Hybrid AI at Université Paris-Saclay, headed for NLP & computer vision research. I build things from scratch to understand how they work — neural nets in pure C, semantic search from the linear algebra up.",
+      "downloadCV": "Download CV",
+      "badges": {
+        "degree": "M1 DKAI · Université Paris-Saclay",
+        "hackathon": "1st place · AMU Hackathon 2026",
+        "location": "Marseille → Paris"
+      }
     },
-    "skills": {
-      "ai_math": "AI & Math",
-      "development": "Development",
-      "languages": "Languages"
+    "research": {
+      "title": "Research_Notes",
+      "publication": {
+        "label": "Publication · Aix-Marseille Université · 2026",
+        "link": "Read on HAL"
+      },
+      "focus": {
+        "label": "Current_Focus",
+        "desc": "NLP research intern at LIS (Laboratoire d'Informatique et Systèmes): RAG pipelines and topic modelling over the BnF & INA web archives — extracting themes from large-scale WARC corpora. Next: the MVA master's at ENS Paris-Saclay, then AI research."
+      }
+    },
+    "experience": {
+      "title": "Field_Experience",
+      "creativeLink": "See the creative side →",
+      "items": {
+        "lis": {
+          "role": "NLP Research Intern",
+          "org": "LIS — Laboratoire d'Informatique et Systèmes",
+          "date": "Apr – Jul 2026",
+          "desc": "RAG pipelines and topic modelling on the BnF & INA web archives — building theme-extraction tooling for terabyte-scale WARC corpora."
+        },
+        "micron": {
+          "role": "Statistical Data Analyst Intern",
+          "org": "Micron Applied Dentistry",
+          "date": "Sep – Dec 2025",
+          "desc": "Python analysis pipeline for 126 high-resolution 3D dental scans: reproducibility validation with t-tests, Monte Carlo simulation and power analysis, plus a landmark-detection algorithm."
+        },
+        "vista": {
+          "role": "Full-Stack Developer Intern",
+          "org": "Vista Ball",
+          "date": "Jun – Aug 2025",
+          "desc": "Inventory management system built with Supabase and Node.js, integrated with Shopify."
+        },
+        "fabric": {
+          "role": "Sound Engineer",
+          "org": "Fabric London",
+          "date": "2021 – 2023",
+          "desc": "From cloakroom attendant to the sound engineering team of one of the world's most storied clubs. The other half of this site."
+        }
+      }
     },
     "projects": {
       "title": "Compiled_Projects",
       "items": {
         "neural_vision": {
           "title": "Neural Vision 3D",
-          "desc": "A real-time 3D neural network visualizer built from scratch. Features an interactive drawing pad and a live Three.js representation of hidden layer activations and backpropagation results."
+          "desc": "Interactive 3D neural-network visualizer with real-time MNIST digit recognition. The inference engine is hand-written in NumPy; hidden-layer activations are rendered live in Three.js."
+        },
+        "ml_library": {
+          "title": "ML Library in C",
+          "desc": "A neural-network library in pure C: matrix operations, dense layers, ReLU/Sigmoid activations, MSE loss and forward propagation. No dependencies — just C and CMake."
         },
         "vector_search": {
           "title": "Vector Search Engine",
-          "desc": "A high-performance semantic search engine built from scratch using Python, FastAPI, and Linear Algebra"
-        },
-        "netflix_clone": {
-          "title": "Netflix Clone",
-          "desc": "A high-fidelity frontend clone of the Netflix interface, built to demonstrate mastery in Modern React, Advanced CSS/Tailwind, and Global State Management."
+          "desc": "Semantic search engine built from the linear algebra up — BERT sentence embeddings and cosine similarity, FastAPI backend, React frontend."
         },
         "air_harp": {
-          "title": "Air-Harp: Computer Vision Musical Instrument",
-          "desc": "Air-Harp is an interactive computer vision application that transforms your hand movements into a digital musical instrument. By using your webcam and Google’s MediaPipe technology, it detects your finger positions in real-time to \"pluck\" virtual strings suspended in mid-air."
+          "title": "Air Harp",
+          "desc": "A computer-vision instrument: MediaPipe hand tracking lets you pluck virtual harp strings suspended in mid-air. Where the two halves of this portfolio meet."
         },
         "koda_marketplace": {
           "title": "Koda Marketplace",
-          "desc": "A Premium Multi-Language Marketplace for No-Code Automations & Workflows. Features unified dual-mode dashboard with glassmorphic UI, Stripe Connect split payments (85/15), real-time interactions via Pusher, secure digital delivery with AWS S3 pre-signed URLs, and full internationalization in 4 languages (EN, FR, ES, DE). Built with Next.js 16, TypeScript, MongoDB, Redis caching, and enterprise-grade authentication via Clerk."
+          "desc": "Multi-language marketplace for no-code automations: Stripe Connect split payments, real-time interactions via Pusher, secure delivery with S3 pre-signed URLs, i18n in four languages."
         }
       }
+    },
+    "skills": {
+      "title": "Tech_Stack",
+      "ai_math": "AI & Research",
+      "development": "Engineering",
+      "languages": "Languages"
+    },
+    "education": {
+      "title": "Education",
+      "items": {
+        "m1": {
+          "degree": "M1 — Data, Knowledge & Hybrid Artificial Intelligence (DKAI)",
+          "school": "Université Paris-Saclay",
+          "date": "2026 – 2027",
+          "note": "Taught in English · alongside an L3 in Mathematics at AMU (double bachelor, expected 2027)"
+        },
+        "bsc": {
+          "degree": "BSc Mathematics & Computer Science",
+          "school": "Aix-Marseille University",
+          "date": "2023 – 2026",
+          "note": "1st place, AMU Hackathon 2026 · Chess Club · Mathematics Club"
+        },
+        "ba": {
+          "degree": "BA Music Production & Sound Engineering",
+          "school": "Point Blank Music School · Middlesex University",
+          "date": "2021 – 2023",
+          "note": "While working as a sound engineer at Fabric London"
+        }
+      }
+    },
+    "contact": {
+      "line": "Open to research collaborations and interesting problems.",
+      "tagline": "© {year} Sasha Sutton — built from scratch, like everything else."
     }
   }
 }
