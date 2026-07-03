@@ -80,7 +80,7 @@ export default function Home() {
                 <Link href="/creative" className="group relative flex flex-col items-center justify-center border-r border-zinc-900 overflow-hidden bg-zinc-950/50 backdrop-blur-sm">
                     <div className="absolute inset-0 bg-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                     <Music size={60} className="text-zinc-700 group-hover:text-pink-500 transition-colors mb-6" />
-                    <h2 className="text-4xl font-black group-hover:tracking-widest transition-all">{t('navigation.creative.title')}</h2>
+                    <h2 className="font-display text-4xl font-extrabold group-hover:tracking-widest transition-all">{t('navigation.creative.title')}</h2>
                     <p className="mt-4 text-zinc-500 text-sm">{t('navigation.creative.description')}</p>
                     <div className="mt-8 flex items-center gap-2 text-xs font-bold uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-all">
                         {t('navigation.creative.action')} <ArrowRight size={14} />
@@ -91,7 +91,7 @@ export default function Home() {
                 <Link href="/scientist" className="group relative flex flex-col items-center justify-center overflow-hidden bg-zinc-950/50 backdrop-blur-sm">
                     <div className="absolute inset-0 bg-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                     <Binary size={60} className="text-zinc-700 group-hover:text-indigo-500 transition-colors mb-6" />
-                    <h2 className="text-4xl font-black group-hover:tracking-widest transition-all">{t('navigation.scientist.title')}</h2>
+                    <h2 className="font-mono text-4xl font-bold tracking-tight group-hover:tracking-widest transition-all">{t('navigation.scientist.title')}</h2>
                     <p className="mt-4 text-zinc-500 text-sm">{t('navigation.scientist.description')}</p>
                     <div className="mt-8 flex items-center gap-2 text-xs font-bold uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-all">
                         {t('navigation.scientist.action')} <ArrowRight size={14} />
