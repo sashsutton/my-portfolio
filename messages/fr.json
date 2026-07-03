@@ -159,7 +159,13 @@
                     "degree": "M1 — Data, Knowledge & Hybrid Artificial Intelligence (DKAI)",
                     "school": "Université Paris-Saclay",
                     "date": "2026 – 2027",
-                    "note": "Enseigné en anglais · en parallèle d'une L3 de Mathématiques à AMU (double licence, prévue 2027)"
+                    "note": "Enseigné en anglais"
+                },
+                "math": {
+                    "degree": "Double Licence — Mathématiques et Informatique",
+                    "school": "Université d'Aix-Marseille",
+                    "date": "prévue 2027",
+                    "note": "En cours en parallèle du M1 — validation des derniers modules de mathématiques pour transformer la licence en double licence, prévue juin 2027"
                 },
                 "bsc": {
                     "degree": "Licence Mathématiques et Informatique",

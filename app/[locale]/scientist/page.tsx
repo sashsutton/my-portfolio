@@ -52,7 +52,7 @@ const experienceData = [
     { key: "fabric", creative: true }
 ];
 
-const educationData = ["m1", "bsc", "ba"];
+const educationData = ["m1", "math", "bsc", "ba"];
 
 const HAL_URL = "https://hal.science/hal-05628568";
 
@@ -260,7 +260,7 @@ export default function Scientist() {
                 <section className="px-6 lg:px-24 py-16">
                     <SectionTitle index="05">{t('education.title')}</SectionTitle>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {educationData.map((key) => (
                             <div key={key} className="p-6 rounded-2xl bg-zinc-950 border border-zinc-900 flex flex-col">
                                 <GraduationCap className="text-indigo-500 mb-4" size={20} />

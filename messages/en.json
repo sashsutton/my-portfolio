@@ -159,7 +159,13 @@
           "degree": "M1 — Data, Knowledge & Hybrid Artificial Intelligence (DKAI)",
           "school": "Université Paris-Saclay",
           "date": "2026 – 2027",
-          "note": "Taught in English · alongside an L3 in Mathematics at AMU (double bachelor, expected 2027)"
+          "note": "Taught in English"
+        },
+        "math": {
+          "degree": "Double Bachelor's — Mathematics & Computer Science",
+          "school": "Aix-Marseille University",
+          "date": "expected 2027",
+          "note": "In progress alongside the M1 — completing the remaining mathematics modules to turn the BSc into a double bachelor's, expected June 2027"
         },
         "bsc": {
           "degree": "BSc Mathematics & Computer Science",
