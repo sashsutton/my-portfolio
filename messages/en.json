@@ -12,9 +12,9 @@
     },
     "intro": {
       "title": "I'm Sasha",
-      "p1": "I started out in the music industry — live sound engineer at <strong>Fabric London</strong>, DJing, and a BA in <strong>Music Production & Sound Engineering</strong> at Point Blank.",
-      "p2": "Then I wanted to understand how things actually work. I earned a BSc in <strong>Mathematics & Computer Science</strong> at Aix-Marseille University (2026) — the first year studied online from London, between night shifts at the club. Along the way: <strong>1st place at the AMU Hackathon 2026</strong> and a published article on the learning mechanics of neural networks.",
-      "p3": "Today I'm a Master's student in <strong>Data, Knowledge & Hybrid Artificial Intelligence (DKAI)</strong> at Université Paris-Saclay, aiming for the MVA and a research career in <strong>NLP and computer vision</strong>. I build things from scratch to understand them — from backpropagation in C to instruments you play in mid-air."
+      "p1": "I started out in the music industry, working as a live sound engineer at <strong>Fabric London</strong> and DJing while I finished my BA in <strong>Music Production & Sound Engineering</strong> at Point Blank.",
+      "p2": "Then I wanted to understand how things actually work, so I did a BSc in <strong>Mathematics & Computer Science</strong> at Aix-Marseille University. I spent the first year studying online from London between night shifts at the club, then moved to Marseille to finish it in 2026. Along the way I took <strong>1st place at the AMU Hackathon 2026</strong> and published an article on how neural networks learn.",
+      "p3": "These days I'm a Master's student in <strong>Data, Knowledge & Hybrid Artificial Intelligence (DKAI)</strong> at Université Paris-Saclay, aiming for the MVA and a research career in <strong>NLP and computer vision</strong>. I like building things from scratch to really understand them, whether that's backpropagation in C or an instrument you play in mid-air."
     },
     "navigation": {
       "creative": {
@@ -33,7 +33,7 @@
     "header": {
       "eyebrow": "Sasha Sutton · aka",
       "title": "VILASON",
-      "description": "Producer, DJ and live sound engineer. From the sound booth at Fabric London to tracks of my own — bridging London's underground club culture and digital sound innovation."
+      "description": "Producer, DJ and live sound engineer. From the sound booth at Fabric London to tracks of my own, bridging London's underground club culture and digital sound innovation."
     },
     "experience": {
       "label": "Experience",
@@ -42,7 +42,7 @@
     },
     "console": {
       "title": "On the console",
-      "subtitle": "Faders up — what I actually do.",
+      "subtitle": "Faders up. This is what I actually do.",
       "strips": {
         "mixing": {
           "title": "Mix & Master",
@@ -72,7 +72,7 @@
     "header": {
       "log": "Research_Log_{year}",
       "title": "AI <highlight>Research</highlight> & Engineering.",
-      "description": "Master's student in Data, Knowledge & Hybrid AI at Université Paris-Saclay, headed for NLP & computer vision research. I build things from scratch to understand how they work — neural nets in pure C, semantic search from the linear algebra up.",
+      "description": "Master's student in Data, Knowledge & Hybrid AI at Université Paris-Saclay, headed for NLP & computer vision research. I build things from scratch to understand how they work: neural nets in pure C, semantic search starting from the linear algebra.",
       "downloadCV": "Download CV",
       "badges": {
         "degree": "M1 DKAI · Université Paris-Saclay",
@@ -88,7 +88,7 @@
       },
       "focus": {
         "label": "Current_Focus",
-        "desc": "NLP research intern at LIS (Laboratoire d'Informatique et Systèmes): RAG pipelines and topic modelling over the BnF & INA web archives — extracting themes from large-scale WARC corpora. Next: the MVA master's at ENS Paris-Saclay, then AI research."
+        "desc": "NLP research intern at LIS (Laboratoire d'Informatique et Systèmes), working on RAG pipelines and topic modelling over the BnF & INA web archives, extracting themes from large-scale WARC corpora. Next step is the MVA at ENS Paris-Saclay, then AI research."
       }
     },
     "experience": {
@@ -97,9 +97,9 @@
       "items": {
         "lis": {
           "role": "NLP Research Intern",
-          "org": "LIS — Laboratoire d'Informatique et Systèmes",
+          "org": "LIS (Laboratoire d'Informatique et Systèmes)",
           "date": "Apr – Jul 2026",
-          "desc": "RAG pipelines and topic modelling on the BnF & INA web archives — building theme-extraction tooling for terabyte-scale WARC corpora."
+          "desc": "RAG pipelines and topic modelling on the BnF & INA web archives, building theme-extraction tooling for terabyte-scale WARC corpora."
         },
         "micron": {
           "role": "Statistical Data Analyst Intern",
@@ -130,11 +130,11 @@
         },
         "ml_library": {
           "title": "ML Library in C",
-          "desc": "A neural-network library in pure C: matrix operations, dense layers, ReLU/Sigmoid activations, MSE loss and forward propagation. No dependencies — just C and CMake."
+          "desc": "A neural-network library in pure C: matrix operations, dense layers, ReLU/Sigmoid activations, MSE loss and forward propagation. No dependencies, just C and CMake."
         },
         "vector_search": {
           "title": "Vector Search Engine",
-          "desc": "Semantic search engine built from the linear algebra up — BERT sentence embeddings and cosine similarity, FastAPI backend, React frontend."
+          "desc": "Semantic search engine built from scratch: BERT sentence embeddings, cosine similarity, a FastAPI backend and a React frontend."
         },
         "air_harp": {
           "title": "Air Harp",
@@ -165,7 +165,7 @@
           "degree": "Double Bachelor's — Mathematics & Computer Science",
           "school": "Aix-Marseille University",
           "date": "expected 2027",
-          "note": "In progress alongside the M1 — completing the remaining mathematics modules to turn the BSc into a double bachelor's, expected June 2027"
+          "note": "In progress alongside the M1. Completing the remaining mathematics modules to turn the BSc into a double bachelor's, expected June 2027"
         },
         "bsc": {
           "degree": "BSc Mathematics & Computer Science",
@@ -183,7 +183,7 @@
     },
     "contact": {
       "line": "Open to research collaborations and interesting problems.",
-      "tagline": "© {year} Sasha Sutton — built from scratch, like everything else."
+      "tagline": "© {year} Sasha Sutton"
     }
   }
 }

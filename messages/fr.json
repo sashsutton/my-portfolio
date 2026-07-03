@@ -12,9 +12,9 @@
         },
         "intro": {
             "title": "Je suis Sasha",
-            "p1": "J'ai débuté dans l'industrie musicale — ingénieur du son live à <strong>Fabric London</strong>, DJ, et une licence en <strong>Production Musicale & Ingénierie Sonore</strong> à Point Blank.",
-            "p2": "Puis j'ai voulu comprendre comment les choses fonctionnent vraiment. J'ai obtenu une licence de <strong>Mathématiques et Informatique</strong> à l'Université d'Aix-Marseille (2026) — la première année en ligne depuis Londres, entre deux nuits au club. En chemin : <strong>1ère place au Hackathon AMU 2026</strong> et un article publié sur les mécanismes d'apprentissage des réseaux de neurones.",
-            "p3": "Aujourd'hui, je suis étudiant en Master <strong>Data, Knowledge & Hybrid Artificial Intelligence (DKAI)</strong> à l'Université Paris-Saclay, avec en ligne de mire le MVA et une carrière de recherche en <strong>NLP et vision par ordinateur</strong>. Je construis les choses à partir de zéro pour les comprendre — de la rétropropagation en C aux instruments qui se jouent dans les airs."
+            "p1": "J'ai débuté dans l'industrie musicale, comme ingénieur du son live à <strong>Fabric London</strong> et DJ, tout en préparant ma licence en <strong>Production Musicale & Ingénierie Sonore</strong> à Point Blank.",
+            "p2": "Puis j'ai voulu comprendre comment les choses fonctionnent vraiment, alors j'ai fait une licence de <strong>Mathématiques et Informatique</strong> à l'Université d'Aix-Marseille. J'ai passé la première année à étudier en ligne depuis Londres, entre deux nuits au club, avant de m'installer à Marseille pour la terminer en 2026. En chemin, j'ai décroché la <strong>1ère place au Hackathon AMU 2026</strong> et publié un article sur les mécanismes d'apprentissage des réseaux de neurones.",
+            "p3": "Aujourd'hui, je suis étudiant en Master <strong>Data, Knowledge & Hybrid Artificial Intelligence (DKAI)</strong> à l'Université Paris-Saclay, avec en ligne de mire le MVA et une carrière de recherche en <strong>NLP et vision par ordinateur</strong>. J'aime construire les choses à partir de zéro pour vraiment les comprendre, que ce soit la rétropropagation en C ou un instrument qui se joue dans les airs."
         },
         "navigation": {
             "creative": {
@@ -33,7 +33,7 @@
         "header": {
             "eyebrow": "Sasha Sutton · alias",
             "title": "VILASON",
-            "description": "Producteur, DJ et ingénieur du son live. De la régie de Fabric London à mes propres morceaux — un pont entre la culture club underground de Londres et l'innovation sonore numérique."
+            "description": "Producteur, DJ et ingénieur du son live. De la régie de Fabric London à mes propres morceaux, un pont entre la culture club underground de Londres et l'innovation sonore numérique."
         },
         "experience": {
             "label": "Expérience",
@@ -42,7 +42,7 @@
         },
         "console": {
             "title": "Sur la console",
-            "subtitle": "Faders levés — ce que je fais vraiment.",
+            "subtitle": "Faders levés. Voilà ce que je fais vraiment.",
             "strips": {
                 "mixing": {
                     "title": "Mix & Master",
@@ -72,7 +72,7 @@
         "header": {
             "log": "Journal_Recherche_{year}",
             "title": "<highlight>Recherche</highlight> & Ingénierie IA.",
-            "description": "Étudiant en Master Data, Knowledge & Hybrid AI à l'Université Paris-Saclay, en route vers la recherche en NLP et vision par ordinateur. Je construis à partir de zéro pour comprendre comment les choses fonctionnent — réseaux de neurones en C pur, recherche sémantique depuis l'algèbre linéaire.",
+            "description": "Étudiant en Master Data, Knowledge & Hybrid AI à l'Université Paris-Saclay, en route vers la recherche en NLP et vision par ordinateur. Je construis à partir de zéro pour comprendre comment les choses fonctionnent : réseaux de neurones en C pur, recherche sémantique depuis l'algèbre linéaire.",
             "downloadCV": "Télécharger CV",
             "badges": {
                 "degree": "M1 DKAI · Université Paris-Saclay",
@@ -88,7 +88,7 @@
             },
             "focus": {
                 "label": "Focus_Actuel",
-                "desc": "Stagiaire de recherche en NLP au LIS (Laboratoire d'Informatique et Systèmes) : pipelines RAG et topic modelling sur les archives web de la BnF et de l'INA — extraction de thèmes sur des corpus WARC à grande échelle. Prochaine étape : le master MVA à l'ENS Paris-Saclay, puis la recherche en IA."
+                "desc": "Stagiaire de recherche en NLP au LIS (Laboratoire d'Informatique et Systèmes), sur des pipelines RAG et du topic modelling appliqués aux archives web de la BnF et de l'INA, avec extraction de thèmes sur des corpus WARC à grande échelle. Prochaine étape : le master MVA à l'ENS Paris-Saclay, puis la recherche en IA."
             }
         },
         "experience": {
@@ -97,9 +97,9 @@
             "items": {
                 "lis": {
                     "role": "Stagiaire de Recherche en NLP",
-                    "org": "LIS — Laboratoire d'Informatique et Systèmes",
+                    "org": "LIS (Laboratoire d'Informatique et Systèmes)",
                     "date": "Avr – Juil 2026",
-                    "desc": "Pipelines RAG et topic modelling sur les archives web de la BnF et de l'INA — outils d'extraction de thèmes pour des corpus WARC de plusieurs téraoctets."
+                    "desc": "Pipelines RAG et topic modelling sur les archives web de la BnF et de l'INA, avec des outils d'extraction de thèmes pour des corpus WARC de plusieurs téraoctets."
                 },
                 "micron": {
                     "role": "Stagiaire Analyste de Données Statistiques",
@@ -130,11 +130,11 @@
                 },
                 "ml_library": {
                     "title": "Bibliothèque ML en C",
-                    "desc": "Une bibliothèque de réseaux de neurones en C pur : opérations matricielles, couches denses, activations ReLU/Sigmoïde, perte MSE et propagation avant. Sans dépendances — juste du C et CMake."
+                    "desc": "Une bibliothèque de réseaux de neurones en C pur : opérations matricielles, couches denses, activations ReLU/Sigmoïde, perte MSE et propagation avant. Sans dépendances, juste du C et CMake."
                 },
                 "vector_search": {
                     "title": "Moteur de Recherche Vectoriel",
-                    "desc": "Moteur de recherche sémantique construit depuis l'algèbre linéaire — embeddings de phrases BERT et similarité cosinus, backend FastAPI, frontend React."
+                    "desc": "Moteur de recherche sémantique construit à partir de zéro : embeddings de phrases BERT, similarité cosinus, backend FastAPI et frontend React."
                 },
                 "air_harp": {
                     "title": "Air Harp",
@@ -165,7 +165,7 @@
                     "degree": "Double Licence — Mathématiques et Informatique",
                     "school": "Université d'Aix-Marseille",
                     "date": "prévue 2027",
-                    "note": "En cours en parallèle du M1 — validation des derniers modules de mathématiques pour transformer la licence en double licence, prévue juin 2027"
+                    "note": "En cours en parallèle du M1. Validation des derniers modules de mathématiques pour transformer la licence en double licence, prévue juin 2027"
                 },
                 "bsc": {
                     "degree": "Licence Mathématiques et Informatique",
@@ -183,7 +183,7 @@
         },
         "contact": {
             "line": "Ouvert aux collaborations de recherche et aux problèmes intéressants.",
-            "tagline": "© {year} Sasha Sutton — fait maison, comme tout le reste."
+            "tagline": "© {year} Sasha Sutton"
         }
     }
 }

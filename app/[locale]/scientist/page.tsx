@@ -123,7 +123,7 @@ export default function Scientist() {
                                 <span className="w-2.5 h-2.5 rounded-full bg-zinc-800" />
                                 <span className="w-2.5 h-2.5 rounded-full bg-zinc-800" />
                                 <span className="w-2.5 h-2.5 rounded-full bg-zinc-800" />
-                                <span className="ml-3 text-[11px] text-zinc-600">sutton2026.bib — {t('research.publication.label')}</span>
+                                <span className="ml-3 text-[11px] text-zinc-600">sutton2026.bib · {t('research.publication.label')}</span>
                             </div>
                             <pre className="p-6 text-[11px] sm:text-xs leading-relaxed overflow-x-auto flex-1">
 <code><span className="text-pink-400">@article</span><span className="text-zinc-600">{"{"}</span><span className="text-indigo-300">sutton2026retropropagation</span><span className="text-zinc-600">,</span>{"\n"}

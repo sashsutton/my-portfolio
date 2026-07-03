@@ -19,7 +19,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Sasha Sutton — AI Master's Student & Sound Engineer",
+  title: "Sasha Sutton | AI Master's Student & Sound Engineer",
   description:
     "Master's student in Data, Knowledge & Hybrid AI at Université Paris-Saclay, headed for NLP & computer vision research. Former live sound engineer at Fabric London.",
 };
