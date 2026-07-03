@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-syne);
 }
 
 html {
@@ -43,4 +44,28 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #3f3f46;
+}
+
+/* EQ visualizer bars (creative page hero) */
+.eq-bar {
+  height: var(--h);
+  transform-origin: bottom;
+  animation: eq-pulse var(--dur, 1s) ease-in-out infinite alternate;
+  animation-delay: var(--delay, 0ms);
+}
+
+@keyframes eq-pulse {
+  from {
+    transform: scaleY(0.18);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eq-bar {
+    animation: none;
+    transform: scaleY(0.6);
+  }
 }
