@@ -31,29 +31,35 @@
     },
     "Creative": {
         "header": {
-            "title": "ART SONORE.",
-            "description": "Producteur de Musique et Interprète. Faisant le pont entre la culture club underground de Londres et l'innovation sonore numérique."
+            "eyebrow": "Sasha Sutton · alias",
+            "title": "VILASON",
+            "description": "Producteur, DJ et ingénieur du son live. De la régie de Fabric London à mes propres morceaux — un pont entre la culture club underground de Londres et l'innovation sonore numérique."
         },
         "experience": {
             "label": "Expérience",
             "title": "Son Live & Performance",
             "description": "Avec une licence en Ingénierie Sonore, j'ai passé des années derrière les platines et la console. Mon temps en tant qu'Ingénieur du Son Live à <highlight>Fabric London</highlight> a façonné ma compréhension de l'espace acoustique et du renforcement haute-fidélité."
         },
-        "skills": {
-            "mixing": {
-                "title": "Mixage & Mastering",
-                "description": "Flux de travail analogiques pour les sorties numériques modernes."
-            },
-            "soundDesign": {
-                "title": "Design Sonore",
-                "description": "Synthèse personnalisée et bruitage pour médias immersifs."
-            },
-            "instagram": {
-                "title": "Instagram"
-            },
-            "collaboration": {
-                "title": "Collaboration",
-                "description": "Ouvert aux projets de production et de remix mondiaux."
+        "console": {
+            "title": "Sur la console",
+            "subtitle": "Faders levés — ce que je fais vraiment.",
+            "strips": {
+                "mixing": {
+                    "title": "Mix & Master",
+                    "desc": "Flux de travail analogiques pour les sorties numériques modernes."
+                },
+                "soundDesign": {
+                    "title": "Design Sonore",
+                    "desc": "Synthèse personnalisée et bruitage pour médias immersifs."
+                },
+                "djing": {
+                    "title": "DJ Sets",
+                    "desc": "Sets vinyle et digital, façonnés par les clubs de Londres."
+                },
+                "collaboration": {
+                    "title": "Collab",
+                    "desc": "Ouvert aux projets de production et de remix."
+                }
             }
         },
         "footer": {

@@ -31,29 +31,35 @@
   },
   "Creative": {
     "header": {
-      "title": "SONIC ARTISTRY.",
-      "description": "Music Producer and Performer. Bridging the gap between London's underground club culture and digital sound innovation."
+      "eyebrow": "Sasha Sutton · aka",
+      "title": "VILASON",
+      "description": "Producer, DJ and live sound engineer. From the sound booth at Fabric London to tracks of my own — bridging London's underground club culture and digital sound innovation."
     },
     "experience": {
       "label": "Experience",
       "title": "Live Sound & Performance",
       "description": "With a Bachelor's in Sound Engineering, I've spent years behind the booth and the console. My time as a Live Sound Engineer at <highlight>Fabric London</highlight> shaped my understanding of acoustic space and high-fidelity reinforcement."
     },
-    "skills": {
-      "mixing": {
-        "title": "Mixing & Mastering",
-        "description": "Analog-summed workflows for modern digital releases."
-      },
-      "soundDesign": {
-        "title": "Sound Design",
-        "description": "Custom synthesis and foley for immersive media."
-      },
-      "instagram": {
-        "title": "Instagram"
-      },
-      "collaboration": {
-        "title": "Collaboration",
-        "description": "Open for global production and remix projects."
+    "console": {
+      "title": "On the console",
+      "subtitle": "Faders up — what I actually do.",
+      "strips": {
+        "mixing": {
+          "title": "Mix & Master",
+          "desc": "Analog-summed workflows for modern digital releases."
+        },
+        "soundDesign": {
+          "title": "Sound Design",
+          "desc": "Custom synthesis and foley for immersive media."
+        },
+        "djing": {
+          "title": "DJ Sets",
+          "desc": "Vinyl and digital sets, shaped by London's club floors."
+        },
+        "collaboration": {
+          "title": "Collab",
+          "desc": "Open for production and remix projects."
+        }
       }
     },
     "footer": {
